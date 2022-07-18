@@ -753,6 +753,14 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.portfolio__container--bottom{
+  
+}
+
+.portfolio__technologies{
+
+}
+
 .portfolio__button:hover .button__icon{
   transform: translateX(.25rem)
 }

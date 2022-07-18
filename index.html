@@ -43,11 +43,11 @@
               <i class="uil uil-file-alt nav__icon"></i> Skills
             </a>
           </li>
-          <li class="nav__item">
+          <!-- <li class="nav__item">
             <a href="#services" class="nav__link">
               <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
             </a>
-          </li>
+          </li> -->
           <li class="nav__item">
             <a href="#portfolio" class="nav__link">
               <i class="uil uil-scenery nav__icon"></i> Projetos
@@ -133,15 +133,15 @@
     <!--==================== ABOUT ====================-->
     <section class="about section" id="about">
       <h2 class="section__title">Sobre mim</h2>
-      <span class="section__subtitle">My introduction</span>
+      <span class="section__subtitle">Introdução</span>
 
       <div class="about__container container grid">
         <img src="assets/img/about.jpg" alt="" class="about__img">
 
         <div class="about__data">
           <p class="about__description">Sou desenvolvedor, apaixonado por tecnologia, resolução de problemas e por soluções cada vez mais voltado para as pessoas. Sou técnico em Desenvolvimento de sistemas 
-            pela ETEC e graduando em Ciência da Computação pela Estácio de Sá.<br>
-            Sou Desenvolvedor web já atuei em projetos de gerenciamento de equipes externas com milhares de usuarios, sistemas internos para contratação de serviços e atualmente head da frente de marketing da Field Control, cuidando do SEO, escalabilidade, analises de comportamento dos leads e ranqueamento dos portais.</p>
+            pela ETEC e graduando em Ciência da Computação pela Estácio de Sá.<br><br>
+            Como Desenvolvedor web já atuei em projetos de gerenciamento de equipes externas com milhares de usuarios, sistemas internos para contratação de serviços e atualmente head da frente de marketing da Field Control, cuidando do SEO, escalabilidade, analises de comportamento dos leads e ranqueamento dos portais.</p>
           <div class="about__info">
             <div>
               <span class="about__info-title">+02</span>
@@ -433,7 +433,7 @@
     </section>
 
     <!--==================== SERVICES ====================-->
-    <section class="services section" id="services">
+    <section class="services section" id="services" hidden>
       <h2 class="section__title">Tecnologias</h2>
       <span class="section__subtitle">Que utilizo ou já utilizei</span>
 
@@ -579,12 +579,16 @@
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Event Platform</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
-              <a href="https://event-platform-olive.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
-                Acesse
-                <i class="uil uil-arrow-right button__icon"></i>
-              </a>
+              <p class="portfolio__description">Plataforma de eventos online onde o usuário pode se cadastra e ter acesso aos conteúdos.</p>
+                <a href="https://event-platform-olive.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                  Acesse
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+
+                <a href="https://github.com/helderlim/event-platform" target="_blank" class="button button--flex button--small portfolio__button">
+                  Code
+                  <i class="uil uil-code-branch button__icon"></i>
+                </a>
             </div>
           </div>
 
@@ -594,11 +598,15 @@
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Landing Page XBOX</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">Landing Page para apresentar o novo Xbox one series X. </p>
               <a href="https://homepage-xbox.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
                 Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+
+              <a href="https://github.com/helderlim/homepage-xbox" target="_blank" class="button button--flex button--small portfolio__button">
+                Code
+                <i class="uil uil-code-branch button__icon"></i>
               </a>
             </div>
           </div>
@@ -608,10 +616,9 @@
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Field Control </h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">Realizo as principais implementações do site e do blog da Field Control, mantendo a página o melhor SEO</p>
               <a href="https://fieldcontrol.com.br/" target="_blank" class="button button--flex button--small portfolio__button">
-                Demo
+                Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
               </a>
             </div>
@@ -623,56 +630,72 @@
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Calculator Glass</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">Projeto para treinar algumas tecnicas de JavaScript e CSS</p>
               <a href="https://helderlim.github.io/Calculator-Glassmorphism/" target="_blank" class="button button--flex button--small portfolio__button">
-                Demo
+                Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+
+              <a href="https://github.com/helderlim/Calculator-Glassmorphism" target="_blank" class="button button--flex button--small portfolio__button">
+                Code
+                <i class="uil uil-code-branch button__icon"></i>
               </a>
             </div>
           </div>
 
           <!--==================== PORTFOLIO 5 ====================-->
           <div class="portfolio__content grid swiper-slide">
-            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+            <img src="assets/img/starbucks.gif" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Landing Page Starbucks</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">LP da Starbucks com efeito de escolha do sundae que o usuário preferir.</p>
               <a href="https://helderlim.github.io/Starbucks-Landing-Page/" target="_blank" class="button button--flex button--small portfolio__button">
-                Demo
+                Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+
+              <a href="https://github.com/helderlim/Starbucks-Landing-Page" target="_blank" class="button button--flex button--small portfolio__button">
+                Code
+                <i class="uil uil-code-branch button__icon"></i>
               </a>
             </div>
           </div>
 
           <!--==================== PORTFOLIO 6 ====================-->
           <div class="portfolio__content grid swiper-slide">
-            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+            <img src="assets/img/uncharted.gif" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Uncharted 4 Cards</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">Pagina de cards onde apresenta cada um da história de Uncharted</p>
               <a href="https://helderlim.github.io/Uncharted-4-Cards-UI/" target="_blank" class="button button--flex button--small portfolio__button">
-                Demo
+                Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+
+              <a href="https://github.com/helderlim/Uncharted-4-Cards-UI" target="_blank" class="button button--flex button--small portfolio__button">
+                Code
+                <i class="uil uil-code-branch button__icon"></i>
               </a>
             </div>
           </div>
 
           <!--==================== PORTFOLIO 7 ====================-->
           <div class="portfolio__content grid swiper-slide">
-            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+            <img src="assets/img/mario.gif" alt="" class="portfolio__img">
 
             <div class="portfolio__data">
               <h3 class="portfolio__title">Game Mario</h3>
-              <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ratione
-                sapiente. Laudantium ipsam quibusdam distinctio!</p>
+              <p class="portfolio__description">Jogo simples do Mario</p>
               <a href="https://helderlim.github.io/game-mario/" target="_blank" class="button button--flex button--small portfolio__button">
-                Demo
+                Acesso
                 <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+
+              <a href="https://github.com/helderlim/game-mario" target="_blank" class="button button--flex button--small portfolio__button">
+                Code
+                <i class="uil uil-code-branch button__icon"></i>
               </a>
             </div>
           </div>
@@ -697,12 +720,13 @@
           <div class="project__data">
             <h2 class="project__title">Aberto a oportunidades</h2>
             <p class="project__description">Acredita que as minhas hábilidades possam te ajudar ? Então entre em contato</p>
-            <a href="#contact" class="button button--flex button--white">
+            <a href="#contact" style="
+            margin-bottom: 42px;
+        " class="button button--flex button--white">
               Entre em contato
-              <i class="uil uil-message project__icon button__icon"></i>
+              <i class="uil uil-whatsapp project__icon button__icon"></i>
             </a>
           </div>
-          <img src="assets/img/project.png" alt="" class="project__img">
         </div>
       </div>
     </section>
@@ -790,12 +814,6 @@
             </div>
           </div>
         </div>
-
-        <a href="#" class="button button--flex">
-          Send Message
-
-          <i class="uil uil-message button__icon"></i>
-        </a>
       </div>
     </section>
   </main>
@@ -810,9 +828,9 @@
           </div>
 
           <ul class="footer__links">
-            <li>
+            <!-- <li>
               <a href="#services" class="footer__link">Serviços</a>
-            </li>
+            </li> -->
             <li>
               <a href="#portfolio" class="footer__link">Projetos</a>
             </li>
